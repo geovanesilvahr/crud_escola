@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Aluno(a)</title>
+</head>
+<body>
+  <div>
+    <h1>Cadastro de Aluno(a)</h1>
+    <div>
+      <form class="formAluno" (onSubmit)="inserir()">
+        <label id="matricula">Matricula</label>
+        <input id="p_name" type="number"><br>
+        <label id="p_name">Primero Nome</label>
+        <input id="p_name" type="text" >
+        <label id="s_name">Sobrenome</label>
+        <input id="s_name" type="text">
+        <label id="email">Email</label>
+        <input id="email" type="email">
+        <label id="data_nasc">Data de Nasc.</label>
+        <input id="data_nasc" type="date">
+        <label id="cpf">CPF</label>
+        <input id="cpf" type="number">
+        <label id="identidade">Identidade</label>
+        <input id="identidade" type="number">
+        <label id="endereco">Endereço</label>
+        <input id="endereco" type="text">
+        <label id="cidade">Cidade</label>
+        <input id="cidade" type="text">
+        <label id="cep">CEP</label>
+        <input id="cep" type="number">
+        <label id="bairro">Bairro</label>
+        <input id="bairro" type="text">
+        <label id="uf">UF</label>
+        <select id="uf"></select>
+        <label id="telefone">Telefone</label>
+        <input id="telefone" type="tel">
+        
+      </form>
+        </div class="bts">
+
+          <button>Limpar</button>
+          <button type="submit">Salvar</button>
+        
+        </div>
+    </div>
+  </div>
+</body>
+</html>

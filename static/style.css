@@ -1,0 +1,9 @@
+h1{
+    height: 100px;
+    color: blue;
+}
+
+.formAluno{
+    display: flex;
+    flex-direction: column;
+}
